@@ -416,11 +416,11 @@ end
 -- 2. HỆ THỐNG ÂM THANH TƯƠNG TÁC (MẶC ĐỊNH LUÔN MỞ)
 -- ============================================================================
 local SOUND_CONFIG = {
-	open   = { id = "rbxassetid://6895079853", vol = 0.56, spd = 1.06 },
-	close  = { id = "rbxassetid://6895079853", vol = 0.45, spd = 0.88 },
-	logo   = { id = "rbxassetid://6895079853", vol = 0.62, spd = 1.14 },
-	tap    = { id = "rbxassetid://6026984224", vol = 0.48, spd = 1.14 },
-	action = { id = "rbxassetid://4590662766", vol = 0.54, spd = 1.08 },
+	open   = { id = "rbxassetid://97608172188347", vol = 0.56, spd = 1.06 },
+	close  = { id = "rbxassetid://97608172188347", vol = 0.45, spd = 0.88 },
+	logo   = { id = "rbxassetid://97608172188347", vol = 0.62, spd = 1.14 },
+	tap    = { id = "rbxassetid://97608172188347", vol = 0.48, spd = 1.14 },
+	action = { id = "rbxassetid://97608172188347", vol = 0.54, spd = 1.08 },
 }
 
 local function getCachedSound(kind)
@@ -468,7 +468,7 @@ end
 -- ============================================================================
 local BANANA_CAT_ASSET_ID = "97608172188347"
 local BANANA_CAT_LOGO     = "rbxassetid://" .. BANANA_CAT_ASSET_ID
-local DOWN_ARROW_ICON     = "rbxassetid://6031091004"
+local DOWN_ARROW_ICON     = "rbxassetid://97608172188347"
 
 local STRETCH_CAT_OFFSET  = Vector2.new(0, 0)
 local STRETCH_CAT_SIZE    = Vector2.new(0, 0)
